@@ -1,0 +1,1002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{208FE4F9-776B-46D3-8446-B0E9E5A44138}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Monitor</RootNamespace>
+    <AssemblyName>受电弓监测系统</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\Monitor\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\TopFashion\Monitor\</InstallUrl>
+    <SupportUrl>http://www.oukell.com</SupportUrl>
+    <ProductName>受电弓监测系统</ProductName>
+    <PublisherName>欧客科技</PublisherName>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C5816594CA6544A53CA4F56AC85D85E2027B89A9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Monitor_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>oukell.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>显示器.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Chartlet">
+      <HintPath>..\libs\Chartlet.dll</HintPath>
+    </Reference>
+    <Reference Include="KellCalendarEx, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\KellCalendarEx.dll</HintPath>
+    </Reference>
+    <Reference Include="KellComboBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\KellComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="KellImageViewer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\KellImageViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="KellOutlookGrid">
+      <HintPath>..\..\..\OutlookGrid(Outlook风格数据网格)\OutlookGrid\OutlookGrid\bin\Debug\KellOutlookGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="KellScrollList, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\KellScrollList.dll</HintPath>
+    </Reference>
+    <Reference Include="LoadingCircle">
+      <HintPath>..\..\KellControls2016-3-16备份\KellControls\LoadingCircle\bin\Release\LoadingCircle.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="NetworkMonitor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\NetworkMonitor.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormPager">
+      <HintPath>..\libs\WinFormPager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\BigInteger.cs" />
+    <Compile Include="App_Code\ChangeNotification.cs" />
+    <Compile Include="App_Code\ColorUtil.cs" />
+    <Compile Include="App_Code\Common.cs" />
+    <Compile Include="App_Code\Model.cs" />
+    <Compile Include="App_Code\NewDataNotification.cs" />
+    <Compile Include="App_Code\Paging.cs" />
+    <Compile Include="App_Code\TrainInfo.cs" />
+    <Compile Include="App_Code\Exporter.cs" />
+    <Compile Include="App_Code\GenericDataAccess.cs" />
+    <Compile Include="App_Code\GridUtil.cs" />
+    <Compile Include="App_Code\InformationAccess.cs" />
+    <Compile Include="App_Code\Logs.cs" />
+    <Compile Include="App_Code\MenuUtil.cs" />
+    <Compile Include="App_Code\MergeQuery.cs" />
+    <Compile Include="App_Code\MonitoringSystemConfiguration.cs" />
+    <Compile Include="App_Code\ObjectList.cs" />
+    <Compile Include="App_Code\ObjectManager.cs" />
+    <Compile Include="App_Code\Pantograph\TrainPantographImage.cs" />
+    <Compile Include="App_Code\Pantograph\TrainPantographPage.cs" />
+    <Compile Include="App_Code\PictureUtil.cs" />
+    <Compile Include="App_Code\PointIntValues.cs" />
+    <Compile Include="App_Code\RSA.cs" />
+    <Compile Include="App_Code\SafeTimer.cs" />
+    <Compile Include="App_Code\SqlHelper.cs" />
+    <Compile Include="App_Code\UserUtil.cs" />
+    <Compile Include="Analysis\QJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analysis\QJ.Designer.cs">
+      <DependentUpon>QJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analysis\YJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analysis\YJ.Designer.cs">
+      <DependentUpon>YJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analysis\MHQK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analysis\MHQK.Designer.cs">
+      <DependentUpon>MHQK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\ArgumentManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\ArgumentManage.Designer.cs">
+      <DependentUpon>ArgumentManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\DeviceManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\DeviceManage.Designer.cs">
+      <DependentUpon>DeviceManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\ErrorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\ErrorList.Designer.cs">
+      <DependentUpon>ErrorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\StationManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\StationManage.Designer.cs">
+      <DependentUpon>StationManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\TrainManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\TrainManage.Designer.cs">
+      <DependentUpon>TrainManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Touble\SearchTrouble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Touble\SearchTrouble.Designer.cs">
+      <DependentUpon>SearchTrouble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Touble\SdgAlarmDispose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Touble\SdgAlarmDispose.Designer.cs">
+      <DependentUpon>SdgAlarmDispose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VlcPlayer.cs" />
+    <Compile Include="data_log.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>data_log.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IMonitorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MediaPlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MediaPlayer.Designer.cs">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\chart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\chart.Designer.cs">
+      <DependentUpon>chart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\CxTrainReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\CxTrainReport.Designer.cs">
+      <DependentUpon>CxTrainReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DayReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\DayReportView.Designer.cs">
+      <DependentUpon>DayReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\image.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\image.Designer.cs">
+      <DependentUpon>image.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\train_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\train_report.Designer.cs">
+      <DependentUpon>train_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\SdgReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\SdgReport.Designer.cs">
+      <DependentUpon>SdgReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\SearchSDG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\SearchSDG.Designer.cs">
+      <DependentUpon>SearchSDG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\data_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\data_report.Designer.cs">
+      <DependentUpon>data_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\TrainReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\TrainReport.Designer.cs">
+      <DependentUpon>TrainReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\SearchTrain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\SearchTrain.Designer.cs">
+      <DependentUpon>SearchTrain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\video.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\video.Designer.cs">
+      <DependentUpon>video.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Determine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Determine.Designer.cs">
+      <DependentUpon>Determine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analysis\THB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analysis\THB.Designer.cs">
+      <DependentUpon>THB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\playback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\playback.Designer.cs">
+      <DependentUpon>playback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Processing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Processing.Designer.cs">
+      <DependentUpon>Processing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\XxReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\XxReport.Designer.cs">
+      <DependentUpon>XxReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\ChangePwdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\ChangePwdForm.designer.cs">
+      <DependentUpon>ChangePwdForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\LoginList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\LoginList.Designer.cs">
+      <DependentUpon>LoginList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\RoleManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\RoleManage.Designer.cs">
+      <DependentUpon>RoleManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\MenuManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\MenuManage.Designer.cs">
+      <DependentUpon>MenuManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\PingList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\PingList.Designer.cs">
+      <DependentUpon>PingList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\SelectControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\SelectControlForm.designer.cs">
+      <DependentUpon>SelectControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManager\UserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManager\UserManage.Designer.cs">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Touble\SearchTroubleW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Touble\SearchTroubleW.Designer.cs">
+      <DependentUpon>SearchTroubleW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="train_log.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>train_log.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MediaPlayer.resx">
+      <DependentUpon>MediaPlayer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report\chart.resx">
+      <DependentUpon>chart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\CxTrainReport.resx">
+      <DependentUpon>CxTrainReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\DayReportView.resx">
+      <DependentUpon>DayReportView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\image.resx">
+      <DependentUpon>image.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\playback.resx">
+      <DependentUpon>playback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SdgReport.resx">
+      <DependentUpon>SdgReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SearchSDG.resx">
+      <DependentUpon>SearchSDG.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\train_report.resx">
+      <DependentUpon>train_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\data_log.rdlc" />
+    <EmbeddedResource Include="Report\train_log.rdlc" />
+    <EmbeddedResource Include="Report\data_report.resx">
+      <DependentUpon>data_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\TrainReport.resx">
+      <DependentUpon>TrainReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\SearchTrain.resx">
+      <DependentUpon>SearchTrain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\video.resx">
+      <DependentUpon>video.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\XxReport.resx">
+      <DependentUpon>XxReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Determine.resx">
+      <DependentUpon>Determine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analysis\QJ.resx">
+      <DependentUpon>QJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analysis\YJ.resx">
+      <DependentUpon>YJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analysis\MHQK.resx">
+      <DependentUpon>MHQK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analysis\THB.resx">
+      <DependentUpon>THB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Processing.resx">
+      <DependentUpon>Processing.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\ChangePwdForm.resx">
+      <DependentUpon>ChangePwdForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\ArgumentManage.resx">
+      <DependentUpon>ArgumentManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\DeviceManage.resx">
+      <DependentUpon>DeviceManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\ErrorList.resx">
+      <DependentUpon>ErrorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\LoginList.resx">
+      <DependentUpon>LoginList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\PingList.resx">
+      <DependentUpon>PingList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\RoleManage.resx">
+      <DependentUpon>RoleManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\MenuManage.resx">
+      <DependentUpon>MenuManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\SelectControlForm.resx">
+      <DependentUpon>SelectControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\UserManage.resx">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\StationManage.resx">
+      <DependentUpon>StationManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManager\TrainManage.resx">
+      <DependentUpon>TrainManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Touble\SearchTroubleW.resx">
+      <DependentUpon>SearchTroubleW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Touble\SearchTrouble.resx">
+      <DependentUpon>SearchTrouble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Touble\SdgAlarmDispose.resx">
+      <DependentUpon>SdgAlarmDispose.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="data_log.xsc">
+      <DependentUpon>data_log.xsd</DependentUpon>
+    </None>
+    <None Include="data_log.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>data_log.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data_log.xss">
+      <DependentUpon>data_log.xsd</DependentUpon>
+    </None>
+    <None Include="Monitor_TemporaryKey.pfx" />
+    <None Include="NLog.config" />
+    <None Include="oukell.pfx" />
+    <None Include="plugins\plugins.dat" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="train_log.xsc">
+      <DependentUpon>train_log.xsd</DependentUpon>
+    </None>
+    <None Include="train_log.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>train_log.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="train_log.xss">
+      <DependentUpon>train_log.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons\alert.ico" />
+    <Content Include="icons\config.ico" />
+    <Content Include="icons\doc.ico" />
+    <Content Include="icons\DocList.ico" />
+    <Content Include="icons\flow.ico" />
+    <Content Include="icons\form.ico" />
+    <None Include="icons\help.ico" />
+    <Content Include="icons\import.ico" />
+    <Content Include="icons\lef.ico" />
+    <Content Include="icons\log.ico" />
+    <Content Include="icons\logo.ico" />
+    <Content Include="icons\menu.ico" />
+    <Content Include="icons\money.ico" />
+    <Content Include="icons\NewDoc.ico" />
+    <Content Include="icons\node.ico" />
+    <Content Include="icons\node_close.ico" />
+    <Content Include="icons\node_open.ico" />
+    <Content Include="icons\permission.ico" />
+    <Content Include="icons\printer.ico" />
+    <Content Include="icons\pwd.ico" />
+    <Content Include="icons\selected.ico" />
+    <Content Include="icons\sms.ico" />
+    <Content Include="icons\staff.ico" />
+    <Content Include="Images\button.gif" />
+    <Content Include="Images\Circle.png" />
+    <Content Include="Images\Circle_Grey.png" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\export32.png" />
+    <Content Include="Images\fanhui.gif" />
+    <Content Include="plugins\vlc-2.2.2-win32.exe" />
+    <Content Include="显示器.ico" />
+    <None Include="Images\Login.gif" />
+    <Content Include="Images\Modify.png" />
+    <Content Include="Images\Modify_hui.png" />
+    <Content Include="Images\open.png" />
+    <Content Include="Images\print.gif" />
+    <None Include="Images\quit.gif" />
+    <None Include="Images\sp.png" />
+    <Content Include="Images\terminal.jpg" />
+    <Content Include="Images\wutu.gif" />
+    <Content Include="Images\xiazai.jpg" />
+    <Content Include="libvlc.dll" />
+    <Content Include="libvlccore.dll" />
+    <Content Include="plugins\3dnow\libmemcpy3dn_plugin.dll" />
+    <Content Include="plugins\access\libaccess_attachment_plugin.dll" />
+    <Content Include="plugins\access\libaccess_bd_plugin.dll" />
+    <Content Include="plugins\access\libaccess_ftp_plugin.dll" />
+    <Content Include="plugins\access\libaccess_http_plugin.dll" />
+    <Content Include="plugins\access\libaccess_imem_plugin.dll" />
+    <Content Include="plugins\access\libaccess_mms_plugin.dll" />
+    <Content Include="plugins\access\libaccess_rar_plugin.dll" />
+    <Content Include="plugins\access\libaccess_realrtsp_plugin.dll" />
+    <Content Include="plugins\access\libaccess_smb_plugin.dll" />
+    <Content Include="plugins\access\libaccess_tcp_plugin.dll" />
+    <Content Include="plugins\access\libaccess_udp_plugin.dll" />
+    <Content Include="plugins\access\libaccess_vdr_plugin.dll" />
+    <Content Include="plugins\access\libcdda_plugin.dll" />
+    <Content Include="plugins\access\libdshow_plugin.dll" />
+    <Content Include="plugins\access\libdtv_plugin.dll" />
+    <Content Include="plugins\access\libdvdnav_plugin.dll" />
+    <Content Include="plugins\access\libdvdread_plugin.dll" />
+    <Content Include="plugins\access\libfilesystem_plugin.dll" />
+    <Content Include="plugins\access\libidummy_plugin.dll" />
+    <Content Include="plugins\access\liblibbluray_plugin.dll" />
+    <Content Include="plugins\access\librtp_plugin.dll" />
+    <Content Include="plugins\access\libscreen_plugin.dll" />
+    <Content Include="plugins\access\libsdp_plugin.dll" />
+    <Content Include="plugins\access\libstream_filter_rar_plugin.dll" />
+    <Content Include="plugins\access\libvcd_plugin.dll" />
+    <Content Include="plugins\access\libzip_plugin.dll" />
+    <Content Include="plugins\access_output\libaccess_output_dummy_plugin.dll" />
+    <Content Include="plugins\access_output\libaccess_output_file_plugin.dll" />
+    <Content Include="plugins\access_output\libaccess_output_http_plugin.dll" />
+    <Content Include="plugins\access_output\libaccess_output_livehttp_plugin.dll" />
+    <Content Include="plugins\access_output\libaccess_output_shout_plugin.dll" />
+    <Content Include="plugins\access_output\libaccess_output_udp_plugin.dll" />
+    <Content Include="plugins\audio_filter\liba52tofloat32_plugin.dll" />
+    <Content Include="plugins\audio_filter\liba52tospdif_plugin.dll" />
+    <Content Include="plugins\audio_filter\libaudiobargraph_a_plugin.dll" />
+    <Content Include="plugins\audio_filter\libaudio_format_plugin.dll" />
+    <Content Include="plugins\audio_filter\libchorus_flanger_plugin.dll" />
+    <Content Include="plugins\audio_filter\libcompressor_plugin.dll" />
+    <Content Include="plugins\audio_filter\libconverter_fixed_plugin.dll" />
+    <Content Include="plugins\audio_filter\libdolby_surround_decoder_plugin.dll" />
+    <Content Include="plugins\audio_filter\libdtstofloat32_plugin.dll" />
+    <Content Include="plugins\audio_filter\libdtstospdif_plugin.dll" />
+    <Content Include="plugins\audio_filter\libequalizer_plugin.dll" />
+    <Content Include="plugins\audio_filter\libheadphone_channel_mixer_plugin.dll" />
+    <Content Include="plugins\audio_filter\libkaraoke_plugin.dll" />
+    <Content Include="plugins\audio_filter\libmono_plugin.dll" />
+    <Content Include="plugins\audio_filter\libmpgatofixed32_plugin.dll" />
+    <Content Include="plugins\audio_filter\libnormvol_plugin.dll" />
+    <Content Include="plugins\audio_filter\libparam_eq_plugin.dll" />
+    <Content Include="plugins\audio_filter\libsamplerate_plugin.dll" />
+    <Content Include="plugins\audio_filter\libscaletempo_plugin.dll" />
+    <Content Include="plugins\audio_filter\libsimple_channel_mixer_plugin.dll" />
+    <Content Include="plugins\audio_filter\libspatializer_plugin.dll" />
+    <Content Include="plugins\audio_filter\libspeex_resampler_plugin.dll" />
+    <Content Include="plugins\audio_filter\libtrivial_channel_mixer_plugin.dll" />
+    <Content Include="plugins\audio_filter\libugly_resampler_plugin.dll" />
+    <Content Include="plugins\audio_mixer\libfixed32_mixer_plugin.dll" />
+    <Content Include="plugins\audio_mixer\libfloat32_mixer_plugin.dll" />
+    <Content Include="plugins\audio_output\libadummy_plugin.dll" />
+    <Content Include="plugins\audio_output\libamem_plugin.dll" />
+    <Content Include="plugins\audio_output\libaout_directx_plugin.dll" />
+    <Content Include="plugins\audio_output\libaout_file_plugin.dll" />
+    <Content Include="plugins\audio_output\libwaveout_plugin.dll" />
+    <Content Include="plugins\codec\liba52_plugin.dll" />
+    <Content Include="plugins\codec\libadpcm_plugin.dll" />
+    <Content Include="plugins\codec\libaes3_plugin.dll" />
+    <Content Include="plugins\codec\libaraw_plugin.dll" />
+    <Content Include="plugins\codec\libavcodec_plugin.dll" />
+    <Content Include="plugins\codec\libcc_plugin.dll" />
+    <Content Include="plugins\codec\libcdg_plugin.dll" />
+    <Content Include="plugins\codec\libcrystalhd_plugin.dll" />
+    <Content Include="plugins\codec\libcvdsub_plugin.dll" />
+    <Content Include="plugins\codec\libddummy_plugin.dll" />
+    <Content Include="plugins\codec\libdmo_plugin.dll" />
+    <Content Include="plugins\codec\libdts_plugin.dll" />
+    <Content Include="plugins\codec\libdvbsub_plugin.dll" />
+    <Content Include="plugins\codec\libedummy_plugin.dll" />
+    <Content Include="plugins\codec\libfaad_plugin.dll" />
+    <Content Include="plugins\codec\libflac_plugin.dll" />
+    <Content Include="plugins\codec\libfluidsynth_plugin.dll" />
+    <Content Include="plugins\codec\libkate_plugin.dll" />
+    <Content Include="plugins\codec\liblibass_plugin.dll" />
+    <Content Include="plugins\codec\liblibmpeg2_plugin.dll" />
+    <Content Include="plugins\codec\liblpcm_plugin.dll" />
+    <Content Include="plugins\codec\libmpeg_audio_plugin.dll" />
+    <Content Include="plugins\codec\libopus_plugin.dll" />
+    <Content Include="plugins\codec\libpng_plugin.dll" />
+    <Content Include="plugins\codec\libquicktime_plugin.dll" />
+    <Content Include="plugins\codec\librawvideo_plugin.dll" />
+    <Content Include="plugins\codec\libschroedinger_plugin.dll" />
+    <Content Include="plugins\codec\libspeex_plugin.dll" />
+    <Content Include="plugins\codec\libspudec_plugin.dll" />
+    <Content Include="plugins\codec\libstl_plugin.dll" />
+    <Content Include="plugins\codec\libsubsdec_plugin.dll" />
+    <Content Include="plugins\codec\libsubsusf_plugin.dll" />
+    <Content Include="plugins\codec\libsvcdsub_plugin.dll" />
+    <Content Include="plugins\codec\libt140_plugin.dll" />
+    <Content Include="plugins\codec\libtheora_plugin.dll" />
+    <Content Include="plugins\codec\libtwolame_plugin.dll" />
+    <Content Include="plugins\codec\libvorbis_plugin.dll" />
+    <Content Include="plugins\codec\libx264_plugin.dll" />
+    <Content Include="plugins\codec\libzvbi_plugin.dll" />
+    <Content Include="plugins\control\libdummy_plugin.dll" />
+    <Content Include="plugins\control\libgestures_plugin.dll" />
+    <Content Include="plugins\control\libglobalhotkeys_plugin.dll" />
+    <Content Include="plugins\control\libhotkeys_plugin.dll" />
+    <Content Include="plugins\control\libnetsync_plugin.dll" />
+    <Content Include="plugins\control\libntservice_plugin.dll" />
+    <Content Include="plugins\control\liboldrc_plugin.dll" />
+    <Content Include="plugins\demux\libaiff_plugin.dll" />
+    <Content Include="plugins\demux\libasf_plugin.dll" />
+    <Content Include="plugins\demux\libau_plugin.dll" />
+    <Content Include="plugins\demux\libavi_plugin.dll" />
+    <Content Include="plugins\demux\libdemuxdump_plugin.dll" />
+    <Content Include="plugins\demux\libdemux_cdg_plugin.dll" />
+    <Content Include="plugins\demux\libdemux_stl_plugin.dll" />
+    <Content Include="plugins\demux\libdirac_plugin.dll" />
+    <Content Include="plugins\demux\libes_plugin.dll" />
+    <Content Include="plugins\demux\libflacsys_plugin.dll" />
+    <Content Include="plugins\demux\libgme_plugin.dll" />
+    <Content Include="plugins\demux\libh264_plugin.dll" />
+    <Content Include="plugins\demux\libimage_plugin.dll" />
+    <Content Include="plugins\demux\liblive555_plugin.dll" />
+    <Content Include="plugins\demux\libmjpeg_plugin.dll" />
+    <Content Include="plugins\demux\libmkv_plugin.dll" />
+    <Content Include="plugins\demux\libmod_plugin.dll" />
+    <Content Include="plugins\demux\libmp4_plugin.dll" />
+    <Content Include="plugins\demux\libmpc_plugin.dll" />
+    <Content Include="plugins\demux\libmpgv_plugin.dll" />
+    <Content Include="plugins\demux\libnsc_plugin.dll" />
+    <Content Include="plugins\demux\libnsv_plugin.dll" />
+    <Content Include="plugins\demux\libnuv_plugin.dll" />
+    <Content Include="plugins\demux\libogg_plugin.dll" />
+    <Content Include="plugins\demux\libplaylist_plugin.dll" />
+    <Content Include="plugins\demux\libps_plugin.dll" />
+    <Content Include="plugins\demux\libpva_plugin.dll" />
+    <Content Include="plugins\demux\librawaud_plugin.dll" />
+    <Content Include="plugins\demux\librawdv_plugin.dll" />
+    <Content Include="plugins\demux\librawvid_plugin.dll" />
+    <Content Include="plugins\demux\libreal_plugin.dll" />
+    <Content Include="plugins\demux\libsid_plugin.dll" />
+    <Content Include="plugins\demux\libsmf_plugin.dll" />
+    <Content Include="plugins\demux\libsubtitle_plugin.dll" />
+    <Content Include="plugins\demux\libts_plugin.dll" />
+    <Content Include="plugins\demux\libtta_plugin.dll" />
+    <Content Include="plugins\demux\libty_plugin.dll" />
+    <Content Include="plugins\demux\libvc1_plugin.dll" />
+    <Content Include="plugins\demux\libvobsub_plugin.dll" />
+    <Content Include="plugins\demux\libvoc_plugin.dll" />
+    <Content Include="plugins\demux\libwav_plugin.dll" />
+    <Content Include="plugins\demux\libxa_plugin.dll" />
+    <Content Include="plugins\gui\libqt4_plugin.dll" />
+    <Content Include="plugins\gui\libskins2_plugin.dll" />
+    <Content Include="plugins\lua\liblua_plugin.dll" />
+    <Content Include="plugins\meta_engine\libfolder_plugin.dll" />
+    <Content Include="plugins\meta_engine\libtaglib_plugin.dll" />
+    <Content Include="plugins\misc\libaudioscrobbler_plugin.dll" />
+    <Content Include="plugins\misc\libexport_plugin.dll" />
+    <Content Include="plugins\misc\libgnutls_plugin.dll" />
+    <Content Include="plugins\misc\liblogger_plugin.dll" />
+    <Content Include="plugins\misc\libmemcpy_plugin.dll" />
+    <Content Include="plugins\misc\libosd_parser_plugin.dll" />
+    <Content Include="plugins\misc\libstats_plugin.dll" />
+    <Content Include="plugins\misc\libvod_rtsp_plugin.dll" />
+    <Content Include="plugins\misc\libxml_plugin.dll" />
+    <Content Include="plugins\mmxext\libmemcpymmxext_plugin.dll" />
+    <Content Include="plugins\mmx\libi420_rgb_mmx_plugin.dll" />
+    <Content Include="plugins\mmx\libi420_yuy2_mmx_plugin.dll" />
+    <Content Include="plugins\mmx\libi422_yuy2_mmx_plugin.dll" />
+    <Content Include="plugins\mmx\libmemcpymmx_plugin.dll" />
+    <Content Include="plugins\mux\libmux_asf_plugin.dll" />
+    <Content Include="plugins\mux\libmux_avi_plugin.dll" />
+    <Content Include="plugins\mux\libmux_dummy_plugin.dll" />
+    <Content Include="plugins\mux\libmux_mp4_plugin.dll" />
+    <Content Include="plugins\mux\libmux_mpjpeg_plugin.dll" />
+    <Content Include="plugins\mux\libmux_ogg_plugin.dll" />
+    <Content Include="plugins\mux\libmux_ps_plugin.dll" />
+    <Content Include="plugins\mux\libmux_ts_plugin.dll" />
+    <Content Include="plugins\mux\libmux_wav_plugin.dll" />
+    <Content Include="plugins\notify\libmsn_plugin.dll" />
+    <Content Include="plugins\packetizer\libpacketizer_copy_plugin.dll" />
+    <Content Include="plugins\packetizer\libpacketizer_dirac_plugin.dll" />
+    <Content Include="plugins\packetizer\libpacketizer_flac_plugin.dll" />
+    <Content Include="plugins\packetizer\libpacketizer_h264_plugin.dll" />
+    <Content Include="plugins\packetizer\libpacketizer_mlp_plugin.dll" />
+    <Content Include="plugins\packetizer\libpacketizer_mpeg4audio_plugin.dll" />
+    <Content Include="plugins\packetizer\libpacketizer_mpeg4video_plugin.dll" />
+    <Content Include="plugins\packetizer\libpacketizer_mpegvideo_plugin.dll" />
+    <Content Include="plugins\packetizer\libpacketizer_vc1_plugin.dll" />
+    <Content Include="plugins\services_discovery\libmediadirs_plugin.dll" />
+    <Content Include="plugins\services_discovery\libpodcast_plugin.dll" />
+    <Content Include="plugins\services_discovery\libsap_plugin.dll" />
+    <Content Include="plugins\services_discovery\libupnp_plugin.dll" />
+    <Content Include="plugins\services_discovery\libwindrive_plugin.dll" />
+    <Content Include="plugins\sse2\libi420_rgb_sse2_plugin.dll" />
+    <Content Include="plugins\sse2\libi420_yuy2_sse2_plugin.dll" />
+    <Content Include="plugins\sse2\libi422_yuy2_sse2_plugin.dll" />
+    <Content Include="plugins\stream_filter\libstream_filter_dash_plugin.dll" />
+    <Content Include="plugins\stream_filter\libstream_filter_httplive_plugin.dll" />
+    <Content Include="plugins\stream_filter\libstream_filter_record_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_autodel_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_bridge_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_delay_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_description_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_display_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_dummy_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_duplicate_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_es_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_gather_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_langfromtelx_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_mosaic_bridge_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_raop_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_record_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_rtp_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_select_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_setid_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_smem_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_standard_plugin.dll" />
+    <Content Include="plugins\stream_out\libstream_out_transcode_plugin.dll" />
+    <Content Include="plugins\text_renderer\libfreetype_plugin.dll" />
+    <Content Include="plugins\text_renderer\libtdummy_plugin.dll" />
+    <Content Include="plugins\video_chroma\libgrey_yuv_plugin.dll" />
+    <Content Include="plugins\video_chroma\libi420_rgb_plugin.dll" />
+    <Content Include="plugins\video_chroma\libi420_yuy2_plugin.dll" />
+    <Content Include="plugins\video_chroma\libi422_i420_plugin.dll" />
+    <Content Include="plugins\video_chroma\libi422_yuy2_plugin.dll" />
+    <Content Include="plugins\video_chroma\librv32_plugin.dll" />
+    <Content Include="plugins\video_chroma\libyuy2_i420_plugin.dll" />
+    <Content Include="plugins\video_chroma\libyuy2_i422_plugin.dll" />
+    <Content Include="plugins\video_filter\libadjust_plugin.dll" />
+    <Content Include="plugins\video_filter\libalphamask_plugin.dll" />
+    <Content Include="plugins\video_filter\libantiflicker_plugin.dll" />
+    <Content Include="plugins\video_filter\libatmo_plugin.dll" />
+    <Content Include="plugins\video_filter\libaudiobargraph_v_plugin.dll" />
+    <Content Include="plugins\video_filter\libball_plugin.dll" />
+    <Content Include="plugins\video_filter\libblendbench_plugin.dll" />
+    <Content Include="plugins\video_filter\libblend_plugin.dll" />
+    <Content Include="plugins\video_filter\libbluescreen_plugin.dll" />
+    <Content Include="plugins\video_filter\libcanvas_plugin.dll" />
+    <Content Include="plugins\video_filter\libchain_plugin.dll" />
+    <Content Include="plugins\video_filter\libclone_plugin.dll" />
+    <Content Include="plugins\video_filter\libcolorthres_plugin.dll" />
+    <Content Include="plugins\video_filter\libcroppadd_plugin.dll" />
+    <Content Include="plugins\video_filter\libdeinterlace_plugin.dll" />
+    <Content Include="plugins\video_filter\liberase_plugin.dll" />
+    <Content Include="plugins\video_filter\libextract_plugin.dll" />
+    <Content Include="plugins\video_filter\libgaussianblur_plugin.dll" />
+    <Content Include="plugins\video_filter\libgradfun_plugin.dll" />
+    <Content Include="plugins\video_filter\libgradient_plugin.dll" />
+    <Content Include="plugins\video_filter\libgrain_plugin.dll" />
+    <Content Include="plugins\video_filter\libhqdn3d_plugin.dll" />
+    <Content Include="plugins\video_filter\libinvert_plugin.dll" />
+    <Content Include="plugins\video_filter\liblogo_plugin.dll" />
+    <Content Include="plugins\video_filter\libmagnify_plugin.dll" />
+    <Content Include="plugins\video_filter\libmarq_plugin.dll" />
+    <Content Include="plugins\video_filter\libmirror_plugin.dll" />
+    <Content Include="plugins\video_filter\libmosaic_plugin.dll" />
+    <Content Include="plugins\video_filter\libmotionblur_plugin.dll" />
+    <Content Include="plugins\video_filter\libmotiondetect_plugin.dll" />
+    <Content Include="plugins\video_filter\libosdmenu_plugin.dll" />
+    <Content Include="plugins\video_filter\libpanoramix_plugin.dll" />
+    <Content Include="plugins\video_filter\libposterize_plugin.dll" />
+    <Content Include="plugins\video_filter\libpostproc_plugin.dll" />
+    <Content Include="plugins\video_filter\libpsychedelic_plugin.dll" />
+    <Content Include="plugins\video_filter\libpuzzle_plugin.dll" />
+    <Content Include="plugins\video_filter\libremoteosd_plugin.dll" />
+    <Content Include="plugins\video_filter\libripple_plugin.dll" />
+    <Content Include="plugins\video_filter\librotate_plugin.dll" />
+    <Content Include="plugins\video_filter\librss_plugin.dll" />
+    <Content Include="plugins\video_filter\libscale_plugin.dll" />
+    <Content Include="plugins\video_filter\libscene_plugin.dll" />
+    <Content Include="plugins\video_filter\libsepia_plugin.dll" />
+    <Content Include="plugins\video_filter\libsharpen_plugin.dll" />
+    <Content Include="plugins\video_filter\libsubsdelay_plugin.dll" />
+    <Content Include="plugins\video_filter\libswscale_plugin.dll" />
+    <Content Include="plugins\video_filter\libtransform_plugin.dll" />
+    <Content Include="plugins\video_filter\libwall_plugin.dll" />
+    <Content Include="plugins\video_filter\libwave_plugin.dll" />
+    <Content Include="plugins\video_filter\libyuvp_plugin.dll" />
+    <Content Include="plugins\video_output\libcaca_plugin.dll" />
+    <Content Include="plugins\video_output\libdirect2d_plugin.dll" />
+    <Content Include="plugins\video_output\libdirect3d_plugin.dll" />
+    <Content Include="plugins\video_output\libdirectx_plugin.dll" />
+    <Content Include="plugins\video_output\libdrawable_plugin.dll" />
+    <Content Include="plugins\video_output\libglwin32_plugin.dll" />
+    <Content Include="plugins\video_output\libvdummy_plugin.dll" />
+    <Content Include="plugins\video_output\libvmem_plugin.dll" />
+    <Content Include="plugins\video_output\libwingdi_plugin.dll" />
+    <Content Include="plugins\video_output\libyuv_plugin.dll" />
+    <Content Include="plugins\visualization\libgoom_plugin.dll" />
+    <Content Include="plugins\visualization\libprojectm_plugin.dll" />
+    <Content Include="plugins\visualization\libvisual_plugin.dll" />
+    <None Include="Resources\alarm.wav" />
+    <Content Include="sound\alarm.wav" />
+    <Content Include="sound\值班员请注意，受电工报警%28女%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxAXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="sound\值班员请注意，受电工报警%28女%29.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

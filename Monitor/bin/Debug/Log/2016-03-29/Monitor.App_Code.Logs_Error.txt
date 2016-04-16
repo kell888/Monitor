@@ -1,0 +1,16 @@
+2016-03-29 19:11:47.7610|ERROR|Monitor.App_Code.Logs
+[2016-03-29 19:11:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-29 19:11:47.7922|ERROR|Monitor.App_Code.Logs
+[2016-03-29 19:11:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-29 19:17:16.1959|ERROR|Monitor.App_Code.Logs
+[2016-03-29 19:17:16]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-29 19:17:16.2115|ERROR|Monitor.App_Code.Logs
+[2016-03-29 19:17:16]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+

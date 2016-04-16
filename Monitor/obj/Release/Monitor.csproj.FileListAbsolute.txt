@@ -1,0 +1,6 @@
+F:\2016\受电弓\Monitor\Monitor\bin\Release\受电弓监测系统.exe.config
+F:\2016\受电弓\Monitor\Monitor\obj\Release\Interop.AXVLC.dll
+F:\2016\受电弓\Monitor\Monitor\obj\Release\Interop.WMPLib.dll
+F:\2016\受电弓\Monitor\Monitor\obj\Release\AxInterop.AXVLC.dll
+F:\2016\受电弓\Monitor\Monitor\obj\Release\AxInterop.WMPLib.dll
+F:\2016\受电弓\Monitor\Monitor\obj\Release\Monitor.csproj.ResolveComReference.cache

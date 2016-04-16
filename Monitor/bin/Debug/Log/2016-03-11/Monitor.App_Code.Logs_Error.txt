@@ -1,0 +1,5 @@
+2016-03-11 13:17:08.1565|ERROR|Monitor.App_Code.Logs
+[2016-03-11 13:17:08]:ExecuteQueryDataTable：列名 'SortIndex' 无效。
+列名 'Enabled' 无效。
+
+

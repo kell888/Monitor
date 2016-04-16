@@ -1,0 +1,981 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KellHelper</name>
+    </assembly>
+    <members>
+        <member name="T:KellHelper.Exporter">
+            <summary>
+            导出静态类
+            </summary>
+        </member>
+        <member name="M:KellHelper.Exporter.ExportToExcel(System.Data.DataTable)">
+            <summary>
+            将指定的数据列表导出到Excel中
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KellHelper.Logs">
+            <summary>
+            静态日志类
+            </summary>
+        </member>
+        <member name="M:KellHelper.Logs.Append(System.String)">
+            <summary>
+            追加日志内容
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:KellHelper.Logs.Start">
+            <summary>
+            开始日志
+            </summary>
+        </member>
+        <member name="M:KellHelper.Logs.Stop">
+            <summary>
+            结束日志
+            </summary>
+        </member>
+        <member name="P:KellHelper.Logs.LogFileName">
+            <summary>
+            日志文件全名
+            </summary>
+        </member>
+        <member name="T:KellHelper.SqlHelper">
+            <summary>
+            数据库静态操作类
+            </summary>
+        </member>
+        <member name="M:KellHelper.SqlHelper.#ctor(System.String)">
+            <summary>
+            数据库连接字符串的配置名称，为空则默认为【MonitoringSystem】
+            </summary>
+            <param name="connStringConfigName"></param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.SetConnConfig(System.String)">
+            <summary>
+            设置数据库连接字符串的配置名称，默认为【MonitoringSystem】，如果要赋的值与当前值相同则立即返回
+            </summary>
+            <param name="connStringConfigName"></param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExistsColumn(System.String,System.String)">
+            <summary>
+            判断是否存在指定的列(字段)
+            </summary>
+            <param name="tablename"></param>
+            <param name="columnName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExistsTable(System.String)">
+            <summary>
+            判断是否存在指定的数据库对象
+            </summary>
+            <param name="tablename">表、视图、函数、存储过程等数据库对象的名字</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExecuteQueryReader(System.String,System.Data.CommandType,System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="cmdText">命令文本</param>
+            <param name="type">命令类型</param>
+            <param name="param">文本参数数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExecuteQueryReader(System.String)">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="sql">命令文本</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExecuteQueryDataTable(System.String,System.Data.CommandType,System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="cmdText">SQL命令</param>
+            <param name="type"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExecuteQueryDataTable(System.String)">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="sql">SQL命令</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.GetDataAdapter(System.String)">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="sql">SQL命令</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExecuteQueryDataTable(System.Data.Common.DbCommand,System.Data.CommandType,System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="cmd">命令对象</param>
+            <param name="type">命令类型</param>
+            <param name="param">文本参数数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExecuteScalar(System.String,System.Data.CommandType,System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询操作返回第一行第一列对象
+            </summary>
+            <param name="cmdText"></param>
+            <param name="type"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExecuteScalar(System.String)">
+            <summary>
+            执行查询操作返回第一行第一列对象
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExecuteNonQuery(System.String,System.Data.CommandType,System.Data.Common.DbParameter[])">
+            <summary>
+            执行增删改操作，返回受影响行数
+            </summary>
+            <param name="cmdText"></param>
+            <param name="type"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ExecuteNonQuery(System.String)">
+            <summary>
+            执行增删改操作，返回受影响行数
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.SqlHelper.SQLDbBackup(System.String,System.Data.SqlClient.SqlConnectionStringBuilder,SQLDMO.BackupSink_PercentCompleteEventHandler,SQLDMO.Backup@,System.String)">
+            <summary>
+            SQL数据库备份
+            </summary>
+            <param name="filename">要备份到的文件全路径</param>
+            <param name="connStrBuilder">连接字符串构造器</param>
+            <param name="Backup_PercentComplete">进度</param>
+            <param name="oBackup">数据库备份服务对象</param>
+            <param name="remark">备份备注</param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.CancelDbBackup(SQLDMO.Backup,SQLDMO.BackupSink_PercentCompleteEventHandler)">
+            <summary>
+            取消指定备份服务的备份进程
+            </summary>
+            <param name="oBackup"></param>
+            <param name="Backup_PercentComplete"></param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.SQLDbRestore(System.String,System.Data.SqlClient.SqlConnectionStringBuilder,SQLDMO.RestoreSink_PercentCompleteEventHandler,SQLDMO.Restore@)">
+            <summary>
+            SQL恢复数据库
+            </summary>
+            <param name="filename">备份集文件的全路径</param>
+            <param name="connStrBuilder">连接字符串构造器</param>
+            <param name="Restore_PercentComplete">进度</param>
+            <param name="oRestore">数据库还原服务对象</param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.CancelDbRestore(SQLDMO.Restore,SQLDMO.RestoreSink_PercentCompleteEventHandler)">
+            <summary>
+            取消指定还原服务的还原进程
+            </summary>
+            <param name="oRestore"></param>
+            <param name="Restore_PercentComplete"></param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.OnLine(System.String)">
+            <summary>
+            联机指定数据库
+            </summary>
+            <param name="DBName"></param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.OffLine(System.String)">
+            <summary>
+            脱机指定数据库
+            </summary>
+            <param name="DBName"></param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.OffAndOnLine(System.String)">
+            <summary>
+            脱机再联机指定数据库
+            </summary>
+            <param name="DBName"></param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.KillProcess(System.String)">
+            <summary>
+            杀死指定数据库的进程
+            </summary>
+            <param name="DbName"></param>
+        </member>
+        <member name="M:KellHelper.SqlHelper.ShrinkDB(System.String)">
+            <summary>
+            收缩数据库
+            </summary>
+            <param name="DbName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:KellHelper.SqlHelper.CanConnect">
+            <summary>
+            当前数据库是否能连接上
+            </summary>
+        </member>
+        <member name="P:KellHelper.SqlHelper.IsOpened">
+            <summary>
+            当前数据库是否已经打开
+            </summary>
+        </member>
+        <member name="P:KellHelper.SqlHelper.ConnectionStringConfigName">
+            <summary>
+            设置或获取数据库连接字符串的配置名称，设置时会使得Conn重新构造！
+            </summary>
+        </member>
+        <member name="P:KellHelper.SqlHelper.Conn">
+            <summary>
+            获取数据库连接对象
+            </summary>
+        </member>
+        <member name="T:KellHelper.NewDataHandler">
+            <summary>
+            新数据产生时的处理委托
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:KellHelper.NewDataArgs">
+            <summary>
+            新数据参数
+            </summary>
+        </member>
+        <member name="M:KellHelper.NewDataArgs.#ctor(System.String,System.String,System.String,System.Decimal,System.Collections.Generic.List{System.Decimal})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="database"></param>
+            <param name="table"></param>
+            <param name="primaryKey"></param>
+            <param name="lastId"></param>
+            <param name="newIds"></param>
+        </member>
+        <member name="P:KellHelper.NewDataArgs.Database">
+            <summary>
+            监视的数据库
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataArgs.Table">
+            <summary>
+            监视的表名
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataArgs.PrimaryKey">
+            <summary>
+            监视表的主键名
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataArgs.LastId">
+            <summary>
+            上一个ID
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataArgs.NewIds">
+            <summary>
+            新数据的ID
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataArgs.NewTime">
+            <summary>
+            新产生数据的时刻
+            </summary>
+        </member>
+        <member name="T:KellHelper.NewDataNotification">
+            <summary>
+            有新数据产生时的通知类(注意：要监控的表必须要有自增长的主键)
+            </summary>
+        </member>
+        <member name="M:KellHelper.NewDataNotification.#ctor(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            轮询数据库指定的数据表，监测是否有满足条件的新纪录产生
+            </summary>
+            <param name="interval">单位：毫秒</param>
+            <param name="connString">数据库连接字符串</param>
+            <param name="monitorTB">数据通表名</param>
+            <param name="primaryKey">主键</param>
+            <param name="where">要满足的条件</param>
+        </member>
+        <member name="M:KellHelper.NewDataNotification.GetTableName(System.String)">
+            <summary>
+            根据通表名获取当前的实际表名
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.NewDataNotification.Start">
+            <summary>
+            开始监视
+            </summary>
+        </member>
+        <member name="M:KellHelper.NewDataNotification.Stop">
+            <summary>
+            停止监视
+            </summary>
+        </member>
+        <member name="E:KellHelper.NewDataNotification.NewDataComing">
+            <summary>
+            有新数据产生时触发的事件
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataNotification.Database">
+            <summary>
+            当前监视的数据库
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataNotification.MonitorTB">
+            <summary>
+            监视的通表名
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataNotification.Tablename">
+            <summary>
+            当前监视的表名
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataNotification.PrimaryKey">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataNotification.Condition">
+            <summary>
+            监视条件(简单的where语句，即不能带order by或者group by等等后缀)
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataNotification.LastId">
+            <summary>
+            触发之前的上一个表标识的值
+            </summary>
+        </member>
+        <member name="P:KellHelper.NewDataNotification.IsStart">
+            <summary>
+            是否已经开始监视数据库
+            </summary>
+        </member>
+        <member name="T:KellHelper.TinySqlHelper">
+            <summary>
+            微型数据库操作类
+            </summary>
+        </member>
+        <member name="M:KellHelper.TinySqlHelper.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="connString"></param>
+        </member>
+        <member name="M:KellHelper.TinySqlHelper.GetObject(System.String)">
+            <summary>
+            获取指定的对象
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.TinySqlHelper.GetTable(System.String)">
+            <summary>
+            获取指定的数据列表
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.TinySqlHelper.GetDataReader(System.String,System.Data.CommandBehavior)">
+            <summary>
+            获取指定的数据读取器
+            </summary>
+            <param name="sql"></param>
+            <param name="cmdBehavior"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.TinySqlHelper.Execute(System.String)">
+            <summary>
+            执行指定的命令
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.TinySqlHelper.ExistsTable(System.String)">
+            <summary>
+            判断指定的数据库对象是否存在
+            </summary>
+            <param name="tablename"></param>
+            <returns></returns>
+        </member>
+        <member name="P:KellHelper.TinySqlHelper.Connection">
+            <summary>
+            当前连接对象
+            </summary>
+        </member>
+        <member name="P:KellHelper.TinySqlHelper.IsConnectable">
+            <summary>
+            当前数据库是否可连接
+            </summary>
+        </member>
+        <member name="T:KellHelper.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:KellHelper.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的、缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:KellHelper.Properties.Resources.Culture">
+            <summary>
+              为所有资源查找重写当前线程的 CurrentUICulture 属性，
+              方法是使用此强类型资源类。
+            </summary>
+        </member>
+        <member name="T:KellHelper.Commons">
+            <summary>
+            静态共用类库
+            </summary>
+        </member>
+        <member name="M:KellHelper.Commons.ShowWindowAsync(System.IntPtr,System.Int32)">
+            <summary>
+            该函数设置由不同线程产生的窗口的显示状态
+            </summary>
+            <param name="hWnd">窗口句柄</param>
+            <param name="cmdShow">指定窗口如何显示。查看允许值列表，请查阅ShowWlndow函数的说明部分</param>
+            <returns>如果函数原来可见，返回值为非零；如果函数原来被隐藏，返回值为零</returns>
+        </member>
+        <member name="M:KellHelper.Commons.SetForegroundWindow(System.IntPtr)">
+            <summary>
+             该函数将创建指定窗口的线程设置到前台，并且激活该窗口。键盘输入转向该窗口，并为用户改各种可视的记号。
+             系统给创建前台窗口的线程分配的权限稍高于其他线程。 
+            </summary>
+            <param name="hWnd">将被激活并被调入前台的窗口句柄</param>
+            <returns>如果窗口设入了前台，返回值为非零；如果窗口未被设入前台，返回值为零</returns>
+        </member>
+        <member name="M:KellHelper.Commons.HandleRunningInstance(System.Diagnostics.Process)">
+            <summary>
+            将指定的进程实例显示在最前端
+            </summary>
+            <param name="instance"></param>
+        </member>
+        <member name="M:KellHelper.Commons.RuningInstance(System.Diagnostics.Process)">
+            <summary>
+            查找当前系统中存在的与指定进程同一路径的另一个进程（常用于互斥进程的应用场景）
+            </summary>
+            <param name="currentProcess">通常这样获取当前的程序的进程：Process.GetCurrentProcess()</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.RuningInstanceInSystem(System.Diagnostics.Process)">
+            <summary>
+            查找当前系统中存在的与指定进程同一进程名的另一个进程（常用于互斥进程的应用场景）
+            </summary>
+            <param name="currentProcess">通常这样获取当前的程序的进程：Process.GetCurrentProcess()</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.IsLinkToAnotherHost(System.Net.IPAddress,System.Int32)">
+            <summary>
+            是否能连接到另一台主机
+            </summary>
+            <param name="address"></param>
+            <param name="timeout"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.SetNetworkAvailable(Microsoft.VisualBasic.Devices.NetworkAvailableEventHandler)">
+            <summary>
+            订阅网络连接状态的变化事件
+            </summary>
+            <param name="networkEvent"></param>
+        </member>
+        <member name="M:KellHelper.Commons.ToColor(System.String)">
+            <summary>
+            根据字符串获取颜色对象
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.ReadAppSetting(System.String)">
+            <summary>
+            读取当前应用程序配置文档的AppSetting中指定key的配置值
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.ReadConnectionString(System.String)">
+            <summary>
+            读取当前应用程序配置文档的ConnectionString中指定name的连接字符串
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.IsExistKey(System.String)">
+            <summary>
+            判断是否已经存在此自启动键值,此处可以在Form_Load中来使用
+            </summary>
+            <param name="keyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.WriteKey(System.String,System.String)">
+            <summary>
+            写入自启动键值
+            </summary>
+            <param name="keyName"></param>
+            <param name="keyValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.DeleteKey(System.String)">
+            <summary>
+            删除自启动键值
+            </summary>
+            <param name="keyName"></param>
+        </member>
+        <member name="M:KellHelper.Commons.UpdateAppSettingConfig(System.String,System.String,System.String)">
+            <summary>
+            修改指定应用程序的配置项
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <param name="appExecuteFilePath"></param>
+        </member>
+        <member name="M:KellHelper.Commons.UpdateConnectionString(System.String,System.String,System.String)">
+            <summary>
+            修改指定应用程序的数据库连接字符串
+            </summary>
+            <param name="name"></param>
+            <param name="connString"></param>
+            <param name="appExecuteFilePath"></param>
+        </member>
+        <member name="M:KellHelper.Commons.PlayWavMedia(System.String,System.Boolean)">
+            <summary>
+            播放WAV文件
+            </summary>
+            <param name="wavFilePath"></param>
+            <param name="loop"></param>
+        </member>
+        <member name="M:KellHelper.Commons.PlayWavMedia(System.IO.Stream,System.Boolean)">
+            <summary>
+            播放WAV数据流
+            </summary>
+            <param name="stream"></param>
+            <param name="loop"></param>
+        </member>
+        <member name="M:KellHelper.Commons.GetTableName(System.String)">
+            <summary>
+            获取带时间后缀的实际表名(目前只支持YYYYMM和YYYYMMDD两种)
+            </summary>
+            <param name="table">表名模板</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetYYYYMM(System.DateTime)">
+            <summary>
+            根据指定的时间获取年月
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetYYYYMMDD(System.DateTime)">
+            <summary>
+            根据指定的时间获取年月日
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetTableSchama(System.String,System.String)">
+            <summary>
+            获取指定表的结构
+            </summary>
+            <param name="tablename"></param>
+            <param name="connConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetTableSchama(System.String,System.String,System.String)">
+            <summary>
+            获取指定表的结构
+            </summary>
+            <param name="tablename"></param>
+            <param name="yyyyMMORyyyyMMdd"></param>
+            <param name="connConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetHistoryTime(System.String,System.String,System.DateTime@,System.DateTime@,System.String)">
+            <summary>
+            获取指定表的记录中最早时间和最晚时间
+            </summary>
+            <param name="tablename"></param>
+            <param name="timeField"></param>
+            <param name="start"></param>
+            <param name="end"></param>
+            <param name="connConfig"></param>
+        </member>
+        <member name="M:KellHelper.Commons.GetStartTime(System.String,System.String,System.String)">
+            <summary>
+            获取指定表记录中的最早时间
+            </summary>
+            <param name="tablename"></param>
+            <param name="timeField"></param>
+            <param name="connConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetEndTime(System.String,System.String,System.String)">
+            <summary>
+            获取指定表记录中的最晚时间
+            </summary>
+            <param name="tablename"></param>
+            <param name="timeField"></param>
+            <param name="connConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.ExistsTable(System.String,System.String)">
+            <summary>
+            判断指定的表在当前数据库中是否存在
+            </summary>
+            <param name="tablename"></param>
+            <param name="connConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetRegCodeByHardDiskSN(System.String)">
+            <summary>
+            获取当前机器的注册申请码（根据硬盘序列号生成）
+            </summary>
+            <param name="HDSN"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetHDSN">
+            <summary>
+            获取第一个硬盘序列号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetCpuSN">
+            <summary>
+            获取第一个cpu序列号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetMacAddr">
+            <summary>
+            获取第一个网卡硬件地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.ReadIni(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            读取ini文档的配置项
+            </summary>
+            <param name="section"></param>
+            <param name="key"></param>
+            <param name="iniFullpath"></param>
+            <param name="length">读取的值长度默认为1024字节</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.WriteIni(System.String,System.String,System.String,System.String)">
+            <summary>
+            将配置项写入ini文档
+            </summary>
+            <param name="section"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+            <param name="iniFullpath"></param>
+        </member>
+        <member name="M:KellHelper.Commons.ClearIniAllSection(System.String)">
+            <summary>
+            删除ini文件下所有段落
+            </summary>
+        </member>
+        <member name="M:KellHelper.Commons.ClearIniSection(System.String,System.String)">
+            <summary>
+            删除ini文件下section段落下的所有键
+            </summary>
+            <param name="section">指定的段落名</param>
+            <param name="iniFullpath">ini文件全路径</param>
+        </member>
+        <member name="M:KellHelper.Commons.GetIPByIP138(System.String)">
+            <summary>
+            根据指定的IP查询网址获取当前机器的公网IP
+            </summary>
+            <param name="getUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetIP">
+            <summary>
+            获取当前机器的公网IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.IsIPv4(System.String)">
+            <summary>
+            判断指定的IP地址是否为IPv4版本
+            </summary>
+            <param name="ip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetHtml(System.String,System.String)">
+            <summary>
+            根据指定的网址获取网页内容
+            </summary>
+            <param name="url">要访问的网站地址</param>
+            <param name="charSet">目标网页的编码，如果传入的是null或者""，那就自动分析网页的编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetWebContent(System.String)">
+            <summary>
+            获取指定url的文本内容
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetWebDefaultContent(System.IO.Stream)">
+            <summary>
+            获取默认字符编码下的网页内容
+            </summary>
+            <param name="streamReceive"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetCharSet(System.String)">
+            <summary>
+            根据默认字符编码的网页内容，自动获取实际的字符编码
+            </summary>
+            <param name="defaultWebContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetPageTitle(System.String)">
+            <summary>
+            获取网页的Title标签的内容
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetPageKeywordsTag(System.String)">
+            <summary>
+            获取网页的Keywords标签
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetPageDescriptionTag(System.String)">
+            <summary>
+            获取网页的Description标签
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetPageTagwordsTag(System.String)">
+            <summary>
+            获取网页的Tagwords标签
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetPageAuthorTag(System.String)">
+            <summary>
+            获取网页的Author标签
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetKeywordsContentByTag(System.String)">
+            <summary>
+            根据Keywords标签，获取Keywords标签的内容
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetDescriptionContentByTag(System.String)">
+            <summary>
+            根据Description标签，获取Description标签的内容
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.IsExistUri(System.String)">
+            <summary>
+            判断指定URI是否存在
+            </summary>
+            <param name="uri"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.PingIsConnectedInternet(System.Net.NetworkInformation.IPStatus@,System.String,System.Int32)">
+            <summary>
+            利用Ping方法确定是否可以通过网络访问远程计算机
+            </summary>
+            <param name="status">网络状态</param>
+            <param name="ipAddressOrHostName">默认是www.baidu.com</param>
+            <param name="timeout">默认是1000毫秒</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.IsConnectedInternet">
+            <summary>
+            利用wininet.dll中的InternetGetConnectedState方法来确定是否连接上Internet网
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.FormMoveForMouseDown(System.IntPtr)">
+            <summary>
+            鼠标点击非标题栏时拖动窗口
+            </summary>
+        </member>
+        <member name="M:KellHelper.Commons.LaunchScreenSave(System.IntPtr)">
+            <summary>
+            启动windows屏幕保护程序
+            </summary>
+        </member>
+        <member name="M:KellHelper.Commons.FlashWindow(System.IntPtr)">
+            <summary>
+            闪烁指定的窗体一次
+            </summary>
+            <param name="formHandle"></param>
+        </member>
+        <member name="M:KellHelper.Commons.CalculateGraphicsPath(System.Drawing.Bitmap,System.Drawing.Color)">
+            <summary>
+            通过逼近的方式扫描图片的轮廓，返回不透明的区域路径
+            </summary>
+            <param name="bitmap">要扫描的图片</param>
+            <param name="transparentColor">透明色</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.CalculateGraphicsPath(System.Drawing.Bitmap,System.Drawing.Color,System.UInt32)">
+            <summary>
+            通过逼近的方式扫描图片的轮廓，返回不透明的区域路径
+            </summary>
+            <param name="bitmap">要扫描的图片</param>
+            <param name="transparentColor">透明色</param>
+            <param name="tolerance">透明色容差</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.GetPointsByNearestColor(System.Drawing.Bitmap,System.Drawing.Color,System.UInt32)">
+            <summary>
+            获取指定位图中对应指定颜色以及容差的临近颜色点集
+            </summary>
+            <param name="bmp"></param>
+            <param name="c"></param>
+            <param name="tolerance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellHelper.Commons.SetControlRegion(System.Windows.Forms.Control,System.Drawing.Bitmap,System.Drawing.Color,System.Drawing.Drawing2D.GraphicsPath@)">
+            <summary>
+            将指定的位图中不透明部分设置为指定控件的外围轮廓（边界）
+            </summary>
+            <param name="control"></param>
+            <param name="bitmap"></param>
+            <param name="transparentColor"></param>
+            <param name="graphicsPath"></param>
+        </member>
+        <member name="M:KellHelper.Commons.SetFormRegion(System.Windows.Forms.Form,System.Drawing.Bitmap,System.Drawing.Color,System.UInt32,System.Drawing.Drawing2D.GraphicsPath@)">
+            <summary>
+            将指定的位图中不透明部分设置为指定窗体的外围轮廓（指定相似颜色容差，且返回区域路径）
+            </summary>
+            <param name="form"></param>
+            <param name="bitmap"></param>
+            <param name="transparentColor"></param>
+            <param name="tolerance"></param>
+            <param name="graphicsPath"></param>
+        </member>
+        <member name="M:KellHelper.Commons.SetFormRegion(System.Windows.Forms.Form,System.Drawing.Bitmap,System.Drawing.Color)">
+            <summary>
+            将指定的位图中不透明部分设置为指定窗体的外围轮廓
+            </summary>
+            <param name="form"></param>
+            <param name="bitmap"></param>
+            <param name="transparentColor"></param>
+        </member>
+        <member name="M:KellHelper.Commons.GetLastInputInfo(KellHelper.LASTINPUTINFO@)">
+            
+            获取鼠标闲置时间
+            
+        </member>
+        <member name="M:KellHelper.Commons.ShowCursor(System.Boolean)">
+            
+            设置鼠标状态的计数器（非状态）
+            
+        </member>
+        <member name="M:KellHelper.Commons.GetIdleTick">
+            
+            获取闲置时间
+            
+        </member>
+        <member name="M:KellHelper.Commons.ShowOrHideCursorByTimerTick(System.Int32,System.Int32@)">
+            <summary>
+            鼠标或键盘超过timeout秒的闲置时间就隐藏光标，该方法应该放在Timer_Tick函数中（Timer的间隔时间最大可以设置为1秒），进行循环判断
+            </summary>
+            <param name="timeout">闲置时间(单位：秒)</param>
+            <param name="cursorStatus">一定要设为全局变量，初始化为0</param>
+        </member>
+        <member name="M:KellHelper.Commons.DoSomethingWhenNoInput(System.Int32,System.Delegate,System.Object[])">
+            <summary>
+            鼠标或键盘超过timeout秒的闲置时间就执行外部委托方法，该方法应该放在Timer_Tick函数中（Timer的间隔时间设置得越小越好，且必须小于timeout），进行循环判断
+            </summary>
+            <param name="timeout">闲置时间(单位：毫秒)</param>
+            <param name="doSomething"></param>
+            <param name="args">要执行委托的参数数组</param>
+        </member>
+        <member name="P:KellHelper.Commons.IsLinkToNetwork">
+            <summary>
+            当前主机是否联网
+            </summary>
+        </member>
+        <member name="P:KellHelper.Commons.IniFile">
+            <summary>
+            提供当前程序域默认ini文档的路径
+            </summary>
+        </member>
+        <member name="T:KellHelper.LASTINPUTINFO">
+            <summary>
+            LASTINPUTINFO结构体
+            </summary>
+        </member>
+        <member name="F:KellHelper.LASTINPUTINFO.cbSize">
+            <summary>
+            LASTINPUTINFO的大小
+            </summary>
+        </member>
+        <member name="F:KellHelper.LASTINPUTINFO.dwTime">
+            <summary>
+            最后输入时间值
+            </summary>
+        </member>
+        <member name="T:KellHelper.AssemblyUtil">
+            <summary>
+            程序集信息类
+            </summary>
+        </member>
+        <member name="M:KellHelper.AssemblyUtil.#ctor(System.Reflection.Assembly)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="assembly"></param>
+        </member>
+        <member name="P:KellHelper.AssemblyUtil.AssemblyTitle">
+            <summary>
+            程序集标题
+            </summary>
+        </member>
+        <member name="P:KellHelper.AssemblyUtil.AssemblyVersion">
+            <summary>
+            程序集版本
+            </summary>
+        </member>
+        <member name="P:KellHelper.AssemblyUtil.AssemblyDescription">
+            <summary>
+            程序集描述
+            </summary>
+        </member>
+        <member name="P:KellHelper.AssemblyUtil.AssemblyProduct">
+            <summary>
+            程序集产品名
+            </summary>
+        </member>
+        <member name="P:KellHelper.AssemblyUtil.AssemblyCopyright">
+            <summary>
+            程序集版权
+            </summary>
+        </member>
+        <member name="P:KellHelper.AssemblyUtil.AssemblyCompany">
+            <summary>
+            程序集厂商
+            </summary>
+        </member>
+    </members>
+</doc>

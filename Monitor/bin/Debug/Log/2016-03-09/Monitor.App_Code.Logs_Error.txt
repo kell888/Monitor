@@ -1,0 +1,908 @@
+2016-03-09 12:39:33.1269|ERROR|Monitor.App_Code.Logs
+[2016-03-09 12:39:33]:ExecuteScalar£º¶ÔÏóÃû 'd_ping' ÎÞÐ§¡£
+
+
+2016-03-09 12:39:33.1582|ERROR|Monitor.App_Code.Logs
+[2016-03-09 12:39:33]:ExecuteNonQuery£º¶ÔÏóÃû 'd_ping' ÎÞÐ§¡£
+
+
+2016-03-09 12:39:43.1270|ERROR|Monitor.App_Code.Logs
+[2016-03-09 12:39:43]:ExecuteScalar£º¶ÔÏóÃû 'd_ping' ÎÞÐ§¡£
+
+
+2016-03-09 12:39:43.1582|ERROR|Monitor.App_Code.Logs
+[2016-03-09 12:39:43]:ExecuteNonQuery£º¶ÔÏóÃû 'd_ping' ÎÞÐ§¡£
+
+
+2016-03-09 14:03:36.1495|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.1905|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.2395|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.2715|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.3095|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.3415|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.3835|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.4197|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.4678|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.5170|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.5661|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.6131|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.6531|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.7051|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.7481|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.7982|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.8482|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.8992|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:36.9592|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:36]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.0062|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.0606|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.1196|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.1696|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.2286|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.2816|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.3446|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.4055|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.4745|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.5405|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.5995|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.6655|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.7245|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.7875|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.8536|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.9256|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:37.9876|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:37]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.0556|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.1226|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.1846|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.2536|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.3114|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.3794|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.4414|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.5074|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.5654|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.6294|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.7014|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.7594|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.8294|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.8884|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:38.9614|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:38]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.0266|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.0877|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.1527|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.2117|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.2767|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.3437|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.4027|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.4767|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.5367|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.6017|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.6607|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.7217|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.7889|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.8479|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.9209|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:39.9879|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:39]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.0609|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.1219|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.1929|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.2529|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.3119|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.3799|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.4479|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.5070|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.5809|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.6399|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.7080|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.7680|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.8330|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.9010|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:40.9603|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:40]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.0294|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.0994|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.1594|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.2334|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.3004|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.3614|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.4284|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.4904|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.5574|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.6164|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.6844|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.7574|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.8262|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.8852|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:41.9532|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:41]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.0132|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.0782|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.1552|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.2142|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.2733|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.3422|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.4012|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.4712|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.5362|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.6033|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.6633|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.7223|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.7893|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.8493|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:42.9323|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:42]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.0013|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.0803|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.1403|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.2033|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.2702|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.3282|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.3982|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.4802|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.5402|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.6092|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.6692|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.7372|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.7962|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.8602|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.9332|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:43.9923|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:43]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.0593|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.1183|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.1853|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.2613|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.3283|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.3903|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.4633|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.5223|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.5913|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.6513|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.7524|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.8344|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.8954|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:44.9684|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:44]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.0274|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.0954|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.1714|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.2324|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.2995|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.3717|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.4317|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.4997|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.5627|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.6228|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.6888|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.7478|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.8151|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.8741|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:45.9661|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:45]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.0341|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.0931|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.1601|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.2221|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.2891|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.3501|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.4422|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.5084|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.5804|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.6414|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.7174|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.7764|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.8514|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.9104|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:46.9836|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:46]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.0526|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.1126|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.1806|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.2386|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.3113|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.3703|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.4313|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.5103|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.5783|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.6373|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.7063|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.7643|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.8323|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.9044|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:47.9633|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:47]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.0310|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.0890|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.1500|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.2170|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.2760|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.3460|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.4130|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.4720|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.5400|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.6090|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.6740|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.7510|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.8250|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.8851|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:48.9431|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:48]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.0081|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.0801|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.1401|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.2091|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.2684|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.3374|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.4084|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.4734|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.5394|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.5974|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.6711|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.7381|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.7976|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.8646|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.9316|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:49.9915|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:49]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:50.0565|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:50]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:50.1225|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:50]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:50.1865|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:50]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:03:50.2465|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:03:50]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-09 14:09:54.6133|ERROR|Monitor.App_Code.Logs
+[2016-03-09 14:09:54]:ExecuteScalar£º¶ÔÏóÃû 'd_ping' ÎÞÐ§¡£
+
+

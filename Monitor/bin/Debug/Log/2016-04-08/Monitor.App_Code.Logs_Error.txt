@@ -1,0 +1,32 @@
+2016-04-08 22:00:25.1733|ERROR|Monitor.App_Code.Logs
+[2016-04-08 22:00:25]:LogError:'sa' 附近有语法错误。
+
+
+2016-04-08 22:00:25.1733|ERROR|Monitor.App_Code.Logs
+[2016-04-08 22:00:25]:ExecuteQueryDataTable：用户 'sa' 登录失败。
+
+
+2016-04-08 22:00:25.3605|ERROR|Monitor.App_Code.Logs
+[2016-04-08 22:00:25]:LogError:'sa' 附近有语法错误。
+
+
+2016-04-08 22:00:25.3605|ERROR|Monitor.App_Code.Logs
+[2016-04-08 22:00:25]:ExecuteQueryDataTable：用户 'sa' 登录失败。
+
+
+2016-04-08 22:08:08.6968|ERROR|Monitor.App_Code.Logs
+[2016-04-08 22:08:08]:LogError:'sa' 附近有语法错误。
+
+
+2016-04-08 22:08:08.6968|ERROR|Monitor.App_Code.Logs
+[2016-04-08 22:08:08]:ExecuteQueryDataTable：用户 'sa' 登录失败。
+
+
+2016-04-08 22:08:08.8840|ERROR|Monitor.App_Code.Logs
+[2016-04-08 22:08:08]:LogError:'sa' 附近有语法错误。
+
+
+2016-04-08 22:08:08.8840|ERROR|Monitor.App_Code.Logs
+[2016-04-08 22:08:08]:ExecuteQueryDataTable：用户 'sa' 登录失败。
+
+

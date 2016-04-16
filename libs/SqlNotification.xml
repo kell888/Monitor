@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SqlNotification</name>
+    </assembly>
+    <members>
+        <member name="T:SqlNotification.ChangeHandler">
+            <summary>
+            变化通知触发的事件代理
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:SqlNotification.ChangeNotification">
+            <summary>
+            数据库变化通知类
+            </summary>
+        </member>
+        <member name="M:SqlNotification.ChangeNotification.#ctor(System.String)">
+            <summary>
+            构造函数(初始化数据库连接字符串)
+            </summary>
+            <param name="connString">数据库连接字符串</param>
+        </member>
+        <member name="M:SqlNotification.ChangeNotification.Finalize">
+            <summary>
+            析构函数(停止变化通知服务)
+            </summary>
+        </member>
+        <member name="M:SqlNotification.ChangeNotification.Init">
+            <summary>
+            创建指定数据库的通知服务(启用Broker)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.ChangeNotification.Start(System.String)">
+            <summary>
+            开始启用变化通知服务，只需要执行一次，一般在Application_Start函数里
+            </summary>
+            <param name="connConfigName">如果配置文档中的数据库连接串的配置名不是MonitoringSystem，则要指定该项</param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.ChangeNotification.Stop">
+            <summary>
+            停止上次开启的通知服务，只需要执行一次，一般在Application_End函数里
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.ChangeNotification.EnoughPermission">
+            <summary>
+            判断当前用户是否拥有足够的权限使用变化通知服务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.ChangeNotification.StartMonitor(System.String,SqlNotification.ChangeHandler,System.String,System.String)">
+            <summary>
+            监视当前的数据变化
+            </summary>
+            <param name="simpleSQL">简单查询字符串(不能用*，不能用top，不能用函数，包括聚合函数，不能用子查询，包括where后的子查询，不能用外连接，自连接，不能用临时表，不能用变量，不能用视图，不能垮库，表名之前必须加类似dbo数据库所有者这样的前缀)</param>
+            <param name="changeHandler">调用方的回调函数（委托）</param>
+            <param name="primaryTable">主表名</param>
+            <param name="primaryKey">主键名</param>
+        </member>
+        <member name="M:SqlNotification.ChangeNotification.StopMonitor">
+            <summary>
+            停止监视当前的数据变化
+            </summary>
+        </member>
+        <member name="M:SqlNotification.ChangeNotification.ConvertDataReaderToDataSet(System.Data.Common.DbDataReader)">
+            <summary>
+            将指定的数据读取器转化为数据集
+            </summary>
+            <param name="reader">数据读取器</param>
+            <returns></returns>
+        </member>
+        <member name="P:SqlNotification.ChangeNotification.IsStart">
+            <summary>
+            通知服务是否已经开启
+            </summary>
+        </member>
+        <member name="P:SqlNotification.ChangeNotification.IsStop">
+            <summary>
+            是否已经停止当前的变化通知
+            </summary>
+        </member>
+        <member name="P:SqlNotification.ChangeNotification.DataChanged">
+            <summary>
+            获取或设置数据变化回调(委托)
+            </summary>
+        </member>
+        <member name="P:SqlNotification.ChangeNotification.SimpleSQL">
+            <summary>
+            简单SQL语句(用于监视指定的表)
+            </summary>
+        </member>
+        <member name="P:SqlNotification.ChangeNotification.Reader">
+            <summary>
+            执行变化通知后的数据读取器
+            </summary>
+        </member>
+        <member name="P:SqlNotification.ChangeNotification.PrimaryTable">
+            <summary>
+            主表名
+            </summary>
+        </member>
+        <member name="P:SqlNotification.ChangeNotification.PrimaryKey">
+            <summary>
+            主表的主键
+            </summary>
+        </member>
+        <member name="T:SqlNotification.DependencyArgs">
+            <summary>
+            数据库变化依赖参数类
+            </summary>
+        </member>
+        <member name="M:SqlNotification.DependencyArgs.#ctor(System.Data.SqlClient.SqlNotificationType,System.Data.SqlClient.SqlNotificationInfo,System.Data.SqlClient.SqlNotificationSource,System.Data.SqlClient.SqlDataReader,System.String,System.Object,System.Data.DataRow)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="type"></param>
+            <param name="info"></param>
+            <param name="source"></param>
+            <param name="reader"></param>
+            <param name="table"></param>
+            <param name="id"></param>
+            <param name="newResult"></param>
+        </member>
+        <member name="P:SqlNotification.DependencyArgs.Table">
+            <summary>
+            发生变化的表名
+            </summary>
+        </member>
+        <member name="P:SqlNotification.DependencyArgs.ID">
+            <summary>
+            最新插入记录的主键值
+            </summary>
+        </member>
+        <member name="P:SqlNotification.DependencyArgs.NewResult">
+            <summary>
+            插入的新记录
+            </summary>
+        </member>
+        <member name="P:SqlNotification.DependencyArgs.Reader">
+            <summary>
+            执行变化通知后的数据读取器
+            </summary>
+        </member>
+        <member name="T:SqlNotification.SqlHelper">
+            <summary>
+            数据库静态操作类
+            </summary>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.ChangeDatabase(System.String)">
+            <summary>
+            根据新的连接字符串更改当前的数据库，更改后会使得Conn重新构造！
+            </summary>
+            <param name="connString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.SetConnConfig(System.String)">
+            <summary>
+            设置数据库连接字符串的配置名称，默认为【MonitoringSystem】，如果要赋的值与当前值相同则立即返回
+            </summary>
+            <param name="connStringConfigName"></param>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.ExecuteQueryReader(System.String,System.Data.CommandType,System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="cmdText">命令文本</param>
+            <param name="type">命令类型</param>
+            <param name="param">文本参数数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.ExecuteQueryReader(System.String)">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="sql">命令文本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.ExecuteQueryDataTable(System.String)">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="sql">SQL命令</param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.GetDataAdapter(System.String)">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="sql">SQL命令</param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.ExecuteQueryDataTable(System.Data.Common.DbCommand,System.Data.CommandType,System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询操作
+            </summary>
+            <param name="cmd">命令对象</param>
+            <param name="type">命令类型</param>
+            <param name="param">文本参数数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.ExecuteScalar(System.String,System.Data.CommandType,System.Data.Common.DbParameter[])">
+            <summary>
+            执行查询操作返回第一行第一列对象
+            </summary>
+            <param name="cmdText"></param>
+            <param name="type"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.ExecuteScalar(System.String)">
+            <summary>
+            执行查询操作返回第一行第一列对象
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.ExecuteNonQuery(System.String,System.Data.CommandType,System.Data.Common.DbParameter[])">
+            <summary>
+            执行增删改操作，返回受影响行数
+            </summary>
+            <param name="cmdText"></param>
+            <param name="type"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.ExecuteNonQuery(System.String)">
+            <summary>
+            执行增删改操作，返回受影响行数
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.Backup(System.String,System.String)">
+            <summary>
+            备份数据库
+            </summary>
+            <param name="dbName"></param>
+            <param name="filename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SqlNotification.SqlHelper.Restore(System.String,System.String)">
+            <summary>
+            恢复数据库
+            </summary>
+            <param name="dbName"></param>
+            <param name="filename"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SqlNotification.SqlHelper.CanConnect">
+            <summary>
+            当前数据库是否能连接上
+            </summary>
+        </member>
+        <member name="P:SqlNotification.SqlHelper.IsOpened">
+            <summary>
+            当前数据库是否已经打开
+            </summary>
+        </member>
+        <member name="P:SqlNotification.SqlHelper.ConnectionStringConfigName">
+            <summary>
+            设置或获取数据库连接字符串的配置名称，设置时会使得Conn重新构造！
+            </summary>
+        </member>
+        <member name="P:SqlNotification.SqlHelper.Conn">
+            <summary>
+            获取数据库连接对象
+            </summary>
+        </member>
+    </members>
+</doc>

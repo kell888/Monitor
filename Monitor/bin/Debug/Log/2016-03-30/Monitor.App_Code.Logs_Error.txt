@@ -1,0 +1,8 @@
+2016-03-30 22:56:54.2589|ERROR|Monitor.App_Code.Logs
+[2016-03-30 22:56:54]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+
+2016-03-30 22:56:54.3508|ERROR|Monitor.App_Code.Logs
+[2016-03-30 22:56:54]:ExecuteQueryDataTable£ºÓÃ»§ 'sa' µÇÂ¼Ê§°Ü¡£
+
+

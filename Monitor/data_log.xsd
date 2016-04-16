@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="data_log" targetNamespace="http://tempuri.org/data_log.xsd" xmlns:mstns="http://tempuri.org/data_log.xsd" xmlns="http://tempuri.org/data_log.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=192.168.1.10;Initial Catalog=SDG;User ID=sa;Password=damaodf" IsAppSettingsProperty="false" Modifier="Assembly" Name="topfashion.SDG.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_data_logTableAdapter" GeneratorDataComponentClassName="v_data_logTableAdapter" Name="v_data_log" UserDataComponentName="v_data_logTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="topfashion.SDG.dbo" DbObjectName="SDG.dbo.v_data_log" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT point_type_name, data_value, flash_time, station_name, train_no, device_name, direction, line_no, status_type_name FROM dbo.v_data_log</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="device_name" DataSetColumn="device_name" />
+              <Mapping SourceColumn="data_value" DataSetColumn="data_value" />
+              <Mapping SourceColumn="flash_time" DataSetColumn="flash_time" />
+              <Mapping SourceColumn="point_type_name" DataSetColumn="point_type_name" />
+              <Mapping SourceColumn="station_name" DataSetColumn="station_name" />
+              <Mapping SourceColumn="train_no" DataSetColumn="train_no" />
+              <Mapping SourceColumn="direction" DataSetColumn="direction" />
+              <Mapping SourceColumn="line_no" DataSetColumn="line_no" />
+              <Mapping SourceColumn="status_type_name" DataSetColumn="status_type_name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="data_log" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="data_log" msprop:Generator_UserDSName="data_log">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_data_log" msprop:Generator_TableClassName="v_data_logDataTable" msprop:Generator_TableVarName="tablev_data_log" msprop:Generator_RowChangedName="v_data_logRowChanged" msprop:Generator_TablePropName="v_data_log" msprop:Generator_RowDeletingName="v_data_logRowDeleting" msprop:Generator_RowChangingName="v_data_logRowChanging" msprop:Generator_RowEvHandlerName="v_data_logRowChangeEventHandler" msprop:Generator_RowDeletedName="v_data_logRowDeleted" msprop:Generator_RowClassName="v_data_logRow" msprop:Generator_UserTableName="v_data_log" msprop:Generator_RowEvArgName="v_data_logRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="device_name" msprop:Generator_ColumnVarNameInTable="columnpantograph" msprop:Generator_ColumnPropNameInRow="device_name" msprop:Generator_ColumnPropNameInTable="pantographColumn" msprop:Generator_UserColumnName="device_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="data_value" msprop:Generator_ColumnVarNameInTable="columndata_value" msprop:Generator_ColumnPropNameInRow="data_value" msprop:Generator_ColumnPropNameInTable="data_valueColumn" msprop:Generator_UserColumnName="data_value" type="xs:decimal" minOccurs="0" />
+              <xs:element name="flash_time" msprop:Generator_ColumnVarNameInTable="columnflash_time" msprop:Generator_ColumnPropNameInRow="flash_time" msprop:Generator_ColumnPropNameInTable="flash_timeColumn" msprop:Generator_UserColumnName="flash_time" type="xs:dateTime" />
+              <xs:element name="point_type_name" msprop:Generator_ColumnVarNameInTable="columnpoint_type_name" msprop:Generator_ColumnPropNameInRow="point_type_name" msprop:Generator_ColumnPropNameInTable="point_type_nameColumn" msprop:Generator_UserColumnName="point_type_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="station_name" msprop:Generator_ColumnVarNameInTable="columnstation_name" msprop:Generator_ColumnPropNameInRow="station_name" msprop:Generator_ColumnPropNameInTable="station_nameColumn" msprop:Generator_UserColumnName="station_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="train_no" msprop:Generator_ColumnVarNameInTable="columntrain_no" msprop:Generator_ColumnPropNameInRow="train_no" msprop:Generator_ColumnPropNameInTable="train_noColumn" msprop:Generator_UserColumnName="train_no">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="direction" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndirection" msprop:Generator_ColumnPropNameInRow="direction" msprop:Generator_ColumnPropNameInTable="directionColumn" msprop:Generator_UserColumnName="direction" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="line_no" msprop:Generator_ColumnVarNameInTable="columnline_no" msprop:Generator_ColumnPropNameInRow="line_no" msprop:Generator_ColumnPropNameInTable="line_noColumn" msprop:Generator_UserColumnName="line_no">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="status_type_name" msprop:Generator_ColumnVarNameInTable="columnstatus_type_name" msprop:Generator_ColumnPropNameInRow="status_type_name" msprop:Generator_ColumnPropNameInTable="status_type_nameColumn" msprop:Generator_UserColumnName="status_type_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
